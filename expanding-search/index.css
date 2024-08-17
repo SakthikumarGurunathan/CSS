@@ -1,0 +1,24 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+.container{
+    margin-top: 5%;
+    margin-left: 5%;
+}
+.search-bar{
+    padding: 12px 24px;
+    width: 30%;
+    transition: .3s ease-in;
+    border-radius:4px;
+}
+.search-bar:focus{ 
+    width: 85%;
+    border-color: #3a71ca;
+}
+.search-bar:focus::placeholder{
+    color: transparent;
+}
+
+
+
