@@ -1,0 +1,30 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100dvh;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+}
+.button{
+    background-color: black;
+    color: gray;
+    padding: 12px 24px;
+    border-width: 3px;
+    border: solid;
+    border-image: linear-gradient(to right,#eeaf61,#fb9062,#ee5d6c) 1 115%;
+    border-image-slice: 1;
+}
+.button:hover{
+    transform: scale(1.2);
+    color: white;
+     border: solid;
+    border-image: linear-gradient(to right,#ee5d6c,#fb9062,#eeaf61) 1 115%;
+    border-image-slice: 1;
+}
+
+
